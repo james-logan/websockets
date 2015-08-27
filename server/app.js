@@ -1,9 +1,14 @@
 'use strict';
 
 var express = require('express');
+var socketio = require('socket.io')
 
 var app = express();
 
-app.listen(3000, function () {
+app.use(express.static('client'));
+
+var server = app.listen(3000, function () {
   console.log('Server listeninig on port 3000')
 });
+
+socketio(server);
