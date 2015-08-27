@@ -1,0 +1,17 @@
+{
+  "name": "websockets",
+  "version": "1.0.0",
+  "homepage": "https://github.com/james-logan/websockets",
+  "authors": [
+    "James Logan <jamesblogan20@gmail.com>"
+  ],
+  "main": "index.js",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
